@@ -9,5 +9,12 @@ on the serch box. More information on the brewery is provided on the info window
 
 ## APIs implemented:
 
-**Google Maps API
-**FourSquare API
+** Google Maps API
+** FourSquare API
+## Resources
+
+I used the below resources for guidance on this project
+
+*Ryan Waite tutorial video: https://www.youtube.com/watch?v=5J6fs_BlVC0&feature=youtu.be
+
+In person Mentorship from FreeGeek, Portland, OR.
