@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+.App-link {
+  color: #2808e0;
+}
+#map {
+  height: 100vh;
+  width: 75%;
+  float: right;
+}
+
+#map .infowindow {
+  font-family: Papyrus;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+#map .infowindow .noformat {
+  font-family: Papyrus;
+  font-weight: bold;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#header {
+  height: 80px;
+  width: 100%;
+  background-image: url("https://i.postimg.cc/6QRnDZTk/123.jpg");
+  color: #3064b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #e712a7;
+  font-size: 28px;
+  margin: 10px 1em;
+  text-align: auto;
+  font-family: Papyrus;
+  font-weight: bold;
+}
+
+#sidebar {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  width: 25%;
+  background: #cacbcc;
+  display: flex;
+  flex-wrap: wrap;
+  background-position: right;
+  padding: 5px 0;
+
+}
+.search-box {
+  width: 80%;
+  font-family: Papyrus;
+  color: rgb(18, 22, 243);
+  background-color: rgb(255, 152, 221);
+  border: #321cf8
+  font-weight: bold;
+}
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: auto;
+  width: 100%;
+}
+ul.venues {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+nav {
+  max-height: 100vh;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+li {
+  display: block;
+  position: relative;
+  width: 95%;
+  padding: 10px 1px;
+  margin: 12px 0;
+  cursor: pointer;
+  border: 1px solid #fa0694;
+  border-radius: 5px;
+}
+li p {
+  padding: 10 15px;
+  margin: 5px 5px;
+}
+li:hover {
+  color: #8042f4;
+  background: #f8a7eb;
+}
+li:focus {
+  color: #321cf8;
+}
+li .name {
+  font-size: 16px;
+  font-family: Papyrus;
+  font-weight: bold;
+  color: rgb(241, 32, 189);
+}
+li:last-child {
+  margin-bottom: 10px;
+}
