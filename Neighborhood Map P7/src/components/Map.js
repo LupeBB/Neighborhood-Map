@@ -89,7 +89,7 @@ export default class Map extends Component {
     return (
       <LoadMap
         {...this.props} //personal paid for, API key
-        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXx8uxAGqodYz1K2j5neLnqFnaITACMYg "
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key= "
         loadingElement={<div style={{ height: `100vh` }} />}
         containerElement={<div id="map" className="mapContainer" />}
         mapElement={<div className="mapElement" style={{ height: `100vh` }} />}
