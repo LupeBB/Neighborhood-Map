@@ -9,7 +9,7 @@ import Map from "./components/Map";
 import FoursquareAPI from "./api/info";
 
 class App extends Component {
-  //constructor allos ease of access between files
+  //constructor allows ease of access between files
   constructor() {
     super();
     this.state = {
