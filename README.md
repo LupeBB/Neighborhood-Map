@@ -8,5 +8,5 @@ The purpose of this map is to display local breweries around the Portland, OR ar
 on the serch box. More information on the brewery is provided on the info window that display on the pin in the map.
 
 ## APIs implemented:
-*Google Maps API
-*FourSquare API
+**Google Maps API
+**FourSquare API
